@@ -22,7 +22,7 @@ time.sleep(2)
 
 print("La API de CoinGekco brinda los datos en bloques/páginas de 250 monedas.")
 print("La API de CoinGekco tiene 10000 monedas. La cantidad máxima de páginas permitidas es 40. Ejemplo: '11'")
-n_max = input("Indique la cantidad de páginas que desea obtener:")
+n_max = input("Indique la cantidad de páginas que desea obtener: ")
 n_max = int(n_max)
 if n_max > 40: n_max = 40
 print("")
@@ -81,6 +81,6 @@ for n_page in range(1, n_max + 1):
             break
 
 df = pd.DataFrame(data_list)
-df.to_csv("data_market_.csv", index= False)
+df.to_csv("data\csv\data_market_.csv", index= False)
 print("Archivo exportado: 'data_market_.csv'")
 print(f"Cantidad de datos obtenidos: {df.shape[0]}.")
