@@ -4,7 +4,8 @@
 ---
 
 En este proyecto se procedió a hacer un análisis profundo de la página de [CoinGekco](https://www.coingecko.com/). Analizando los datos que tienen sobre la economía de las criptomonedas.
-<img src= "https://th.bing.com/th/id/OIP.Reg5uBu6n8dtWNWi2R6PLQHaEK?pid=ImgDet&rs=1" height= 15>
+
+<img src= "https://th.bing.com/th/id/OIP.Reg5uBu6n8dtWNWi2R6PLQHaEK?pid=ImgDet&rs=1" height= 200>
 En este repositorio podrá encontrar diversos archivos de interés que usted podrá usar para hacer su propio análisis.
 
 ## **Contenido**
